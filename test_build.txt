@@ -1,0 +1,61 @@
+yarn run v1.22.19
+$ nuxt build
+ℹ Using default Tailwind CSS file from runtime/tailwind.css
+ℹ Production build
+ℹ Bundling for server and client side
+ℹ Target: server
+ℹ Using components loader to optimize imports
+ℹ Discovered Components: .nuxt/components/readme.md
+✔ Builder initialized
+✔ Nuxt files generated
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 12.20s
+
+Hash: [1m1f13e29b90f75292ab2c[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m12203[39m[22mms
+Built at: 07/31/2023 [1m5:13:01 PM[39m[22m
+     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m             [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m060a41b.js[39m[22m  2.33 KiB       [1m5[39m[22m  [1m[32m[immutable][39m[22m  runtime
+[1m[32m19aee04.js[39m[22m  6.96 KiB       [1m3[39m[22m  [1m[32m[immutable][39m[22m  components/tutorial
+[1m[32m1f56deb.js[39m[22m   225 KiB       [1m1[39m[22m  [1m[32m[immutable][39m[22m  commons/app
+[1m[32m34ef01c.js[39m[22m  5.13 KiB       [1m7[39m[22m  [1m[32m[immutable][39m[22m
+[1m[32m38ea1d5.js[39m[22m  60.3 KiB       [1m0[39m[22m  [1m[32m[immutable][39m[22m  app
+[1m[32m4084bc4.js[39m[22m  7.25 KiB    [1m4, 3[39m[22m  [1m[32m[immutable][39m[22m  pages/index
+  [1m[32mLICENSES[39m[22m  1.85 KiB        [1m[39m[22m  [1m[32m[39m[22m
+[1m[32mb181260.js[39m[22m  1.99 MiB       [1m6[39m[22m  [1m[32m[immutable][39m[22m  vendors/app
+[1m[32mfa89895.js[39m[22m  1.86 KiB       [1m2[39m[22m  [1m[32m[immutable][39m[22m  components/nuxt-logo
+Entrypoint [1mapp[39m[22m = [1m[32m060a41b.js[39m[22m [1m[32m1f56deb.js[39m[22m [1m[32mb181260.js[39m[22m [1m[32m38ea1d5.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@arianee/arn-types/dist/index.modern.js 1:19235
+Module parse failed: Unexpected token (1:19235)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> import t from"jwt-decode";var e,n,r=[{anonymous:!1,inputs:[{indexed:!0,internalType:"address",name:"owner",type:"address"},{indexed:!0,internalType:"address",name:"approved",type:"address"},{indexed:!0,internalType:"uint256",name:"tokenId",type:"uint256"}],name:"Approval",type:"event"},{anonymous:!1,inputs:[{indexed:!0,internalType:"address",name:"owner",type:"address"},{indexed:!0,internalType:"address",name:"operator",type:"address"},{indexed:!1,internalType:"bool",name:"approved",type:"bool"}],name:"ApprovalForAll",type:"event"},{anonymous:!1,inputs:[{indexed:!0,internalType:"address",name:"from",type:"address"},{indexed:!0,internalType:"address",name:"to",type:"address"},{indexed:!0,internalType:"uint256",name:"tokenId",type:"uint256"}],name:"Transfer",;export{xy as $,uy as A,hu as B,cI as C,My as D,Ay as E,Iy as F,wy as G,hI as H,dd as I,Ny as J,yI as K,my as L,dy as M,yy as N,gy as O,Ty as P,ly as Q,vy as R,by as S,jy as T,Dy as U,Cy as V,su as W,Ey as X,Ly as Y,zy as Z,SI as _,GI as a,au as a$,Sy as a0,Oy as a1,ky as a2,Qy as a3,Uy as a4,By as a5,Yy as a6,Ry as a7,Gy as a8,Zy as a9,Bp as aA,Yp as aB,Rp as aC,Gp as aD,Zp as aE,Fp as aF,Wp as aG,Hp as aH,Vp as aI,Jp as aJ,Kp as aK,Xp as aL,qp as aM,_p as aN,$p as aO,ey as aP,ty as aQ,ny as aR,ry as aS,iy as aT,oy as aU,ay as aV,sy as aW,gw as aX,zp as aY,Aw as aZ,Iw as a_,Wy as aa,Jy as ab,Ky as ac,Xy as ad,$y as ae,ew as af,qy as ag,tw as ah,_y as ai,ow as aj,aw as ak,nw as al,rw as am,iw as an,sw as ao,dw as ap,xp as aq,Sp as ar,Op as as,kp as at,Pp as au,Qp as av,YA as aw,BA as ax,UA as ay,Up as az,lI as b,py as b0,dI as c,fI as d,S as e,O as f,yn as g,z as h,x as i,uu as j,Rd as k,hd as l,Yd as m,zI as n,FI as o,Mh as p,Md as q,yd as r,kI as s,mg as t,ju as u,KA as v,aI as w,XA as x,II as y,qA as z};
+| //# sourceMappingURL=index-9b50b524.js.map
+|
+ @ ./node_modules/@arianee/arn-client/dist/index.modern.js 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166
+ @ ./plugins/arianee.client.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/@nuxt/components/lib/installComponents.js ./.nuxt/client.js[39m[22m
+
+ FATAL  Nuxt build error
+
+  at WebpackBundler.webpackCompile (node_modules/@nuxt/webpack/dist/webpack.js:1868:21)
+  at processTicksAndRejections (node:internal/process/task_queues:96:5)
+  at async WebpackBundler.build (node_modules/@nuxt/webpack/dist/webpack.js:1833:5)
+  at async Builder.build (node_modules/@nuxt/builder/dist/builder.js:249:5)
+  at async Object.run (node_modules/@nuxt/cli/dist/cli-build.js:99:7)
+  at async NuxtCommand.run (node_modules/@nuxt/cli/dist/cli-index.js:356:7)
+
+
+   ╭─────────────────────────────╮
+   │                             │
+   │   ✖ Nuxt Fatal Error        │
+   │                             │
+   │   Error: Nuxt build error   │
+   │                             │
+   ╰─────────────────────────────╯
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
