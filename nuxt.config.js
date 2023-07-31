@@ -1,3 +1,5 @@
+import { resolve } from 'path';
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -19,6 +21,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/arianee.helpers.js',
+    { src: '~/plugins/arianee.client.js', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -51,6 +55,12 @@ export default {
     manifest: {
       lang: 'en'
     }
+  },
+
+  alias: {
+    '@arianee/arn-client': resolve(__dirname, './node_modules/@arianee/arn-client/dist/index.modern.js'),
+    '@arianee/arn-types': resolve(__dirname, './node_modules/@arianee/arn-types/dist/index.modern.js'),
+    '@arianee/arn-components': resolve(__dirname, './node_modules/@arianee/arn-components/dist/index.modern.js'),
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
