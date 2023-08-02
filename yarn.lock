@@ -38,10 +38,10 @@
     web3 "^1.7.3"
     web3modal "1.9.12"
 
-"@arianee/arn-client@2.0.0-develop.16":
-  version "2.0.0-develop.16"
-  resolved "https://registry.yarnpkg.com/@arianee/arn-client/-/arn-client-2.0.0-develop.16.tgz#3db1428fb28049b42e7356adc0348393a0c59a9d"
-  integrity sha512-AvU77t7m1cnb+jtns+m4jugUH2MpdUgNOe3V8aiNWNz2dfozOATbzOkChXmlGTjeB+dITx53rje2rhgxP6vLGw==
+"@arianee/arn-client@2.0.0-develop.18":
+  version "2.0.0-develop.18"
+  resolved "https://registry.yarnpkg.com/@arianee/arn-client/-/arn-client-2.0.0-develop.18.tgz#43d3d9fc1d6ecc16f565513340e3e2f4f4c21e10"
+  integrity sha512-93MnJMym+LNErjf8xX2V71e0RBN8oPBvtjiWSMQWyq+DVnHU9ufPfR8uzuCdsaD2ndj1eOZryydMR61c4Skizw==
   dependencies:
     "@arianee/arn-types" "*"
     "@ethersproject/hash" "~5.7.0"
@@ -78,10 +78,10 @@
     jwt-decode "^3.1.2"
     url-join "^5.0.0"
 
-"@arianee/arn-types@2.0.0-develop.10":
-  version "2.0.0-develop.10"
-  resolved "https://registry.yarnpkg.com/@arianee/arn-types/-/arn-types-2.0.0-develop.10.tgz#5d640e604823b8e30e48017a214ac3346af97dcd"
-  integrity sha512-8p2YZ6ZK8f5/zlBWztATTpkH2ZHPxo0bwNPuNGt6vjWmhb3UUXnqdX98tErmWo3l47PqQQL18dWi5O1TX9sBxw==
+"@arianee/arn-types@2.0.0-develop.11":
+  version "2.0.0-develop.11"
+  resolved "https://registry.yarnpkg.com/@arianee/arn-types/-/arn-types-2.0.0-develop.11.tgz#0c82e78794f87418f8295a58eee6454196f58de2"
+  integrity sha512-+l+MYCIdexA6GUqi7/knae7r8TeNBogp6T+Chmn15jQE71r2O3iba8Iy1jleIr4kspJJU98HEQxYjH68ST/EMw==
   dependencies:
     "@ethersproject/abstract-provider" "^5.7.0"
     "@ethersproject/abstract-signer" "^5.7.0"

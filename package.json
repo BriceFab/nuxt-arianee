@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": ">= 16.20.0"
+    "node": "18.16.0"
   },
   "scripts": {
     "dev": "nuxt",
@@ -12,9 +12,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@arianee/arn-client": "2.0.0-develop.16",
+    "@arianee/arn-client": "2.0.0-develop.18",
     "@arianee/arn-components": "2.0.0-develop.4",
-    "@arianee/arn-types": "2.0.0-develop.10",
+    "@arianee/arn-types": "2.0.0-develop.11",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "@wagmi/core": "1.0.6",
