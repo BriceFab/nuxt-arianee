@@ -79,6 +79,7 @@ export default {
       "@arianee/arn-types",
       "@arianee/arn-client",
       "@walletconnect/sign-client",
+      "@noble/curves",
       "viem",
       "ethers",
     ],
