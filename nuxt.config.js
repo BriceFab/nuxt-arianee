@@ -65,5 +65,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+    transpile: [
+      "@wagmi/core",
+      "@wagmi/connectors",
+      "@web3modal/ethereum",
+      "@web3modal/ui",
+      "@walletconnect/ethereum-provider",
+      "@walletconnect/universal-provider",
+      "@walletconnect/utils",
+      "@walletconnect/core",
+      "@web3modal/core",
+      "@web3modal/html",
+      "@arianee/arn-types",
+      "@walletconnect/sign-client"
+    ],
+  },
 }

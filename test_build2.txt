@@ -1,0 +1,62 @@
+yarn run v1.22.19
+$ nuxt build
+ℹ Using default Tailwind CSS file from runtime/tailwind.css
+ℹ Production build
+ℹ Bundling for server and client side
+ℹ Target: server
+ℹ Using components loader to optimize imports
+ℹ Discovered Components: .nuxt/components/readme.md
+✔ Builder initialized
+✔ Nuxt files generated
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 16.26s
+
+Hash: [1mf0d1ac6c8c74a598ec1a[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m16260[39m[22mms
+Built at: 08/02/2023 [1m8:44:20 AM[39m[22m
+     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m             [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m0c35696.js[39m[22m  1.87 KiB       [1m2[39m[22m  [1m[32m[immutable][39m[22m  components/nuxt-logo
+[1m[32m1a65792.js[39m[22m  5.13 KiB       [1m7[39m[22m  [1m[32m[immutable][39m[22m
+[1m[32m572f00d.js[39m[22m  60.2 KiB       [1m0[39m[22m  [1m[32m[immutable][39m[22m  app
+[1m[32m5a92824.js[39m[22m  7.25 KiB    [1m4, 3[39m[22m  [1m[32m[immutable][39m[22m  pages/index
+[1m[32m5f9ea20.js[39m[22m  2.33 KiB       [1m5[39m[22m  [1m[32m[immutable][39m[22m  runtime
+[1m[32m82f8256.js[39m[22m   292 KiB       [1m1[39m[22m  [1m[32m[immutable][39m[22m  commons/app
+  [1m[32mLICENSES[39m[22m  1.85 KiB        [1m[39m[22m  [1m[32m[39m[22m
+[1m[32mb80addf.js[39m[22m  1.97 MiB       [1m6[39m[22m  [1m[32m[immutable][39m[22m  vendors/app
+[1m[32mc9b6852.js[39m[22m  6.96 KiB       [1m3[39m[22m  [1m[32m[immutable][39m[22m  components/tutorial
+Entrypoint [1mapp[39m[22m = [1m[32m5f9ea20.js[39m[22m [1m[32m82f8256.js[39m[22m [1m[32mb80addf.js[39m[22m [1m[32m572f00d.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@arianee/arn-client/dist/index-9b50b524.js 1:496852
+Module parse failed: Unexpected token (1:496852)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> import e from"@walletconnect/web3-provider";import{ObjectUtil as t,AssertionError as n,ArnError as r,Web3ModalV2DesktopBehaviorMode as i,WALLET_CONNECT_KEY as o,ArnConnectorType as a,Base64Util as s,ArnToken as c,Aut...[truncated]
+,yn as g,z as h,x as i,uu as j,Rd as k,hd as l,Yd as m,zI as n,FI as o,Mh as p,Md as q,yd as r,kI as s,mg as t,ju as u,KA as v,aI as w,XA as x,II as y,qA as z};
+| //# sourceMappingURL=index-9b50b524.js.map
+|
+ @ ./node_modules/@arianee/arn-client/dist/index.modern.js 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166 1:0-2166
+ @ ./plugins/arianee.client.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/@nuxt/components/lib/installComponents.js ./.nuxt/client.js[39m[22m
+
+ FATAL  Nuxt build error
+
+  at WebpackBundler.webpackCompile (node_modules/@nuxt/webpack/dist/webpack.js:1868:21)
+  at processTicksAndRejections (node:internal/process/task_queues:96:5)
+  at async WebpackBundler.build (node_modules/@nuxt/webpack/dist/webpack.js:1833:5)
+  at async Builder.build (node_modules/@nuxt/builder/dist/builder.js:249:5)
+  at async Object.run (node_modules/@nuxt/cli/dist/cli-build.js:99:7)
+  at async NuxtCommand.run (node_modules/@nuxt/cli/dist/cli-index.js:356:7)
+
+
+   ╭─────────────────────────────╮
+   │                             │
+   │   ✖ Nuxt Fatal Error        │
+   │                             │
+   │   Error: Nuxt build error   │
+   │                             │
+   ╰─────────────────────────────╯
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
