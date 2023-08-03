@@ -58,9 +58,9 @@ export default {
   },
 
   alias: {
-    '@arianee/arn-client': resolve(__dirname, './node_modules/@arianee/arn-client/dist/index.modern.js'),
-    '@arianee/arn-types': resolve(__dirname, './node_modules/@arianee/arn-types/dist/index.modern.js'),
-    '@arianee/arn-components': resolve(__dirname, './node_modules/@arianee/arn-components/dist/index.modern.js'),
+    '@arianee/arn-client': resolve(__dirname, './node_modules/@arianee/arn-client/src/index.js'),
+    '@arianee/arn-types': resolve(__dirname, './node_modules/@arianee/arn-types/src/index.js'),
+    '@arianee/arn-components': resolve(__dirname, './node_modules/@arianee/arn-components/src/index.js'),
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -77,7 +77,11 @@ export default {
       "@web3modal/core",
       "@web3modal/html",
       "@arianee/arn-types",
-      "@walletconnect/sign-client"
+      "@arianee/arn-client",
+      "@walletconnect/sign-client",
+      "@noble/curves",
+      "viem",
+      "ethers",
     ],
   },
 }
